@@ -105,14 +105,20 @@ security {
                 ge-0/0/1.0 {
                     host-inbound-traffic {
                         system-services {
+                            /* http & https added, but PCs needed DNS changes to access websites like github /*
                             ping;
+                            http;
+                            https;
                         }
                     }
                 }
                 ge-0/0/3.0 {
                     host-inbound-traffic {
                         system-services {
+                            /* http & https added, but PCs needed DNS changes to access websites like github /*
                             ping;
+                            http;
+                            https;
                         }
                     }
                 }
