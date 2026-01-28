@@ -10,6 +10,7 @@ system {
     }
 }
 interfaces {
+    /* PC3 */
     ge-0/0/1 {
         unit 0 {
             family inet {
@@ -17,6 +18,7 @@ interfaces {
             }
         }
     }
+    */ PC4 */
     ge-0/0/3 {
         unit 0 {
             family inet {
@@ -27,7 +29,7 @@ interfaces {
     ge-0/0/5 {
         unit 0 {
             family inet {
-                address 10.56.16.80/22;
+                address 10.56.16.81/22;
             }
         }
     }
