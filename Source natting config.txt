@@ -10,7 +10,7 @@ system {
     }
 }
 interfaces {
-    /* PC3 */
+    /* LAN1 */
     ge-0/0/1 {
         unit 0 {
             family inet {
@@ -18,7 +18,7 @@ interfaces {
             }
         }
     }
-    */ PC4 */
+    */ LAN2 */
     ge-0/0/3 {
         unit 0 {
             family inet {
